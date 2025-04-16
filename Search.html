@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MORBIUS - Search Your Music</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="Search.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="logo">
+        <h1>MORBIUS</h1>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li class="active"><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+          <li class="active"><a href="Search.html"><i class="fas fa-search"></i> Search</a></li>
+          <li class="active"><a href="Discover.html"><i class="fas fa-compass"></i> Discover</a></li>
+          <li class="active"><a href="Library.html"><i class="fas fa-music"></i> Library</a></li>
+        </ul>
+      </nav>
+      <div class="playlists-section">
+        <h3>Your Playlists</h3>
+        <ul class="playlists">
+          <li><a href="#"><i class="fas fa-list"></i> Workout Mix</a></li>
+          <li><a href="#"><i class="fas fa-list"></i> Chill Vibes</a></li>
+          <li><a href="#"><i class="fas fa-list"></i> Road Trip</a></li>
+          <li><a href="#"><i class="fas fa-list"></i> Study Session</a></li>
+          <li><a href="#"><i class="fas fa-plus-circle"></i> Create Playlist</a></li>
+        </ul>
+      </div>
+      <div class="user-section">
+        <div class="user-info">
+          <img src="./Image/Dog.jpg" alt="User Avatar" class="user-avatar">
+          <span class="username">Doggyss</span>
+        </div>
+        <a href="#" class="settings-link"><i class="fas fa-cog"></i></a>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Top Header with search and user controls -->
+      <header class="top-header">
+        <div class="navigation-controls">
+          <button class="nav-button"><i class="fas fa-chevron-left"></i></button>
+          <button class="nav-button"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="search-bar expanded">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search for artists, songs, or playlists" autofocus>
+        </div>
+        <div class="user-controls">
+          <button class="upgrade-button">Upgrade to Premium</button>
+          <div class="notification-icon">
+            <i class="fas fa-bell"></i>
+            <span class="notification-badge">3</span>
+          </div>
+          <div class="user-menu">
+            <img src="./Image/Dog.jpg" alt="User Avatar" class="mini-avatar">
+            <span>Doggyss</span>
+            <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+      </header>
+
+      <!-- Search Filters -->
+      <section class="search-filters">
+        <div class="filter-tabs">
+          <button class="filter-tab active">All</button>
+          <button class="filter-tab">Songs</button>
+          <button class="filter-tab">Artists</button>
+          <button class="filter-tab">Albums</button>
+          <button class="filter-tab">Playlists</button>
+          <button class="filter-tab">Podcasts</button>
+        </div>
+      </section>
+
+      <!-- Recent Searches -->
+      <section class="recent-searches">
+        <div class="section-header">
+          <h2>Recent Searches</h2>
+          <a href="#" class="see-all">Clear All</a>
+        </div>
+        <div class="search-history">
+          <div class="history-item">
+            <div class="history-image">
+              <img src="./Image/Music5.jpg" alt="Search History">
+            </div>
+            <div class="history-details">
+              <h4>Moira Dela Torre</h4>
+              <p>Artist</p>
+            </div>
+          </div>
+          <div class="history-item">
+            <div class="history-image">
+              <img src="./Image/Cover4.jpg" alt="Search History">
+            </div>
+            <div class="history-details">
+              <h4>Blinding Lights</h4>
+              <p>Song • The Weeknd</p>
+            </div>
+          </div>
+          <div class="history-item">
+            <div class="history-image">
+              <img src="./Image/playlist4.jpg" alt="Search History">
+            </div>
+            <div class="history-details">
+              <h4>Electronic Lab</h4>
+              <p>Playlist</p>
+            </div>
+          </div>
+          <div class="history-item">
+            <div class="history-image">
+              <img src="./Image/Music4.jpg" alt="Search History">
+            </div>
+            <div class="history-details">
+              <h4>Sarah Geronimo</h4>
+              <p>Artist</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Browse Categories -->
+      <section class="browse-categories">
+        <div class="section-header">
+          <h2>Browse All</h2>
+        </div>
+        <div class="categories-grid">
+          <div class="category-card" style="background-color: #E13300;">
+            <h3>Pop</h3>
+            <div class="category-image">
+              <img src="./Image/pop.jpg" alt="Pop Music">
+            </div>
+          </div>
+          <div class="category-card" style="background-color: #1E3264;">
+            <h3>Rock</h3>
+            <div class="category-image">
+              <img src="./Image/rock.jpg" alt="Rock Music">
+            </div>
+          </div>
+          <div class="category-card" style="background-color: #8C67AB;">
+            <h3>Hip-Hop</h3>
+            <div class="category-image">
+              <img src="./Image/hiphop.jpg" alt="Hip-Hop Music">
+            </div>
+          </div>
+          <div class="category-card" style="background-color: #E8115B;">
+            <h3>Dance/Electronic</h3>
+            <div class="category-image">
+              <img src="./Image/dance.jpg" alt="Electronic Music">
+            </div>
+          </div>
+          <div class="category-card" style="background-color: #148A08;">
+            <h3>R&B</h3>
+            <div class="category-image">
+              <img src="./Image/R&B.jpg" alt="R&B Music">
+            </div>
+          </div>
+          <div class="category-card" style="background-color: #BC5900;">
+            <h3>Indie</h3>
+            <div class="category-image">
+              <img src="./Image/Indie.jpg" alt="Indie Music">
+            </div>
+          </div>
+          <div class="category-card" style="background-color: #5179A1;">
+            <h3>Jazz</h3>
+            <div class="category-image">
+              <img src="./Image/jazz.jpg" alt="Jazz Music">
+            </div>
+          </div>
+          <div class="category-card" style="background-color: #8C1932;">
+            <h3>Classical</h3>
+            <div class="category-image">
+              <img src="./Image/classical.jpg" alt="Classical Music">
+            </div>
+          </div>
+          <div class="category-card" style="background-color: #477D95;">
+            <h3>Podcasts</h3>
+            <div class="category-image">
+              <img src="./Image/podcast.jpg" alt="Podcasts">
+            </div>
+          </div>
+          <div class="category-card" style="background-color: #DC148C;">
+            <h3>K-Pop</h3>
+            <div class="category-image">
+              <img src="./Image/k-pop.jpg" alt="K-Pop Music">
+            </div>
+          </div>
+          <div class="category-card" style="background-color: #006450;">
+            <h3>OPM</h3>
+            <div class="category-image">
+              <img src="./Image/opm.jpg" alt="OPM">
+            </div>
+          </div>
+          <div class="category-card" style="background-color: #E61E32;">
+            <h3>New Releases</h3>
+            <div class="category-image">
+              <img src="./Image/new release.jpg" alt="New Releases">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Currently Playing Bar -->
+    <footer class="now-playing">
+      <div class="track-info">
+        <img src="/api/placeholder/56/56" alt="Current Track" class="track-thumbnail">
+        <div class="track-details">
+          <h4>Aaron Smith</h4>
+          <p>Dancing</p>
+        </div>
+        <button class="like-button"><i class="far fa-heart"></i></button>
+      </div>
+      <div class="player-controls">
+        <div class="main-controls">
+          <button class="control-button"><i class="fas fa-random"></i></button>
+          <button class="control-button"><i class="fas fa-step-backward"></i></button>
+          <button class="control-button play"><i class="fas fa-play"></i></button>
+          <button class="control-button"><i class="fas fa-step-forward"></i></button>
+          <button class="control-button"><i class="fas fa-redo"></i></button>
+        </div>
+        <div class="progress-container">
+          <span class="time-elapsed">0:00</span>
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+            <div class="progress-handle"></div>
+          </div>
+          <span class="total-time">0:00</span>
+        </div>
+      </div>
+      <div class="additional-controls">
+        <button class="control-button"><i class="fas fa-list"></i></button>
+        <button class="control-button"><i class="fas fa-desktop"></i></button>
+        <div class="volume-control">
+          <button class="control-button"><i class="fas fa-volume-up"></i></button>
+          <div class="volume-slider">
+            <div class="volume-fill"></div>
+            <div class="volume-handle"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
